@@ -35,6 +35,11 @@ Me inspirei na minha vida pessoal para criar esse projeto, já que a minha avó 
 -  [Axios](https://github.com/axios/axios) para a comunicação com a API;
 -  [TypeScript](https://www.typescriptlang.org/) para tipagem dos dados.
 
+## Documentação e pesquisa
+
+- [Gemini API](https://ai.google.dev/gemini-api/docs/get-started/rest?hl=pt-br) para entender como aplicar no projeto;
+- [GitHub do Google Gemini](https://github.com/google-gemini/generative-ai-js) para escrever o código de teste no Google Colab usando JavaScript.
+
 ---
 ## Aperte o play
 
