@@ -24,7 +24,7 @@ Me inspirei na minha vida pessoal para criar esse projeto, já que a minha avó 
 - Status do projeto:
 - [x] Interface principal;
 - [x] Funcionalidade de selecionar imagens da galeria;
-- [x] Gerar a descrição da imagem com a AI;
+- [] Gerar a descrição da imagem com a AI;
 - [ ] Funcionalidade de dar play no aúdio de instruções.
 ---
 ## Tecnologias
