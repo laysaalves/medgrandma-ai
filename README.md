@@ -8,7 +8,7 @@
 <p align="center">
   <img alt="image-00" width="650px" src="./.github/base-image.PNG"/> 
 <p>
-<p>Primeiro eu fui no Google AI Studio e pedi a descrição de 3 imagens assim como foi feito durante a Imersão pelo Fabrício Carraro! Depois peguei o código do Prompt e fui desenvolver com React Native. A interface principal está assim no momento:</p>
+<p>Primeiro eu fui no Google AI Studio e pedi a descrição de 3 imagens assim como foi feito durante a Imersão pelo Fabrício Carraro! Depois peguei o código do Prompt, estudei a lógica dentro do Google Colab (ótimo para fazer testes com a API Key, inclusive!) e fui desenvolver com React Native. A interface principal está assim no momento:</p>
 <p align="center">
   <img alt="image-01" width="230px" src="./.github/image-01.PNG" />
   <img alt="image-02" width="230px" src="./.github/image-02.PNG" />
@@ -34,6 +34,11 @@ Me inspirei na minha vida pessoal para criar esse projeto, já que a minha avó 
 -  [React Native](http://facebook.github.io/react-native/) com o [Expo](https://expo.io/);
 -  [Axios](https://github.com/axios/axios) para a comunicação com a API;
 -  [TypeScript](https://www.typescriptlang.org/) para tipagem dos dados.
+
+## Documentação e pesquisa
+
+- [Gemini API](https://ai.google.dev/gemini-api/docs/get-started/rest?hl=pt-br) para entender como aplicar no projeto;
+- [GitHub do Google Gemini](https://github.com/google-gemini/generative-ai-js) para escrever o código de teste no Google Colab usando JavaScript.
 
 ---
 ## Aperte o play
