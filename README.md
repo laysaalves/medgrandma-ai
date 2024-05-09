@@ -2,15 +2,18 @@
   <a href="#introdução">Introdução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#aperte-o-play">Acesse o app</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#layout">Layout no Figma</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#licença">Licença</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
-  <img alt="imagem-01" width="650px" src="./.github/image-01.png" />
-  <img alt="imagem-02" width="650px" src="./.github/image-02.png" />
-  <img alt="imagem-03" width="650px" src="./.github/image-03.png" />
-  <img alt="imagem-04" width="650px" src="./.github/image-04.png" />
+  <img alt="image-00" width="650px" src="./.github/base-image.PNG"/> 
+<p>
+<p>Primeiro eu fui no Google AI Studio e pedi a descrição de 3 imagens assim como foi feito durante a Imersão pelo Fabrício Carraro! Depois peguei o código do Prompt e fui desenvolver com React Native. A interface principal está assim no momento:</p>
+<p align="center">
+  <img alt="image-01" width="230px" src="./.github/image-01.PNG" />
+  <img alt="image-02" width="230px" src="./.github/image-02.PNG" />
+  <img alt="image-03" width="230px" src="./.github/image-03.PNG" />
+  <img alt="image-04" width="230px" src="./.github/image-04.PNG" />
 <p>
 
 ---
