@@ -5,6 +5,8 @@ import * as ImageManipulator from 'expo-image-manipulator'
 
 import { styles } from './styles'
 
+import { api } from '../../services/api'
+
 import { Identification } from '../../components/Identification';
 import { Button } from '../../components/Button'
 import { Voice } from '../../components/Voice'
@@ -51,6 +53,26 @@ export function Home() {
     } catch (error) {
       console.log(error)
     }
+  }
+
+  async function medicationDetect(imageBase64: string | undefined) {
+    const response = await api.post(`/v1beta/models/${process.env.EXPO_PUBLIC_API_MODEL_ID}/versions/${process.env.EXPO_PUBLIC_API_MODEL_VERSION_ID}/outputs,`,{
+      "user_app_id": {
+        "user_id": process.env.EXPO_PUBLIC_API_USER_ID,
+        "app_id": process.env.EXPO_PUBLIC_API_APP_ID
+      },
+      "inputs":[
+        {
+          "data": {
+            "image": {
+              "base64": imageBase64
+            }
+          }
+        }
+      ]
+    })
+
+    console.log(response.data);
   }
 
   return (

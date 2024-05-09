@@ -10,13 +10,14 @@
   },
   "dependencies": {
     "@expo-google-fonts/poppins": "^0.2.3",
+    "axios": "^1.6.8",
     "expo": "~51.0.1",
     "expo-font": "~12.0.4",
+    "expo-image-manipulator": "~12.0.3",
+    "expo-image-picker": "~15.0.4",
     "expo-status-bar": "~1.12.1",
     "react": "18.2.0",
-    "react-native": "0.74.1",
-    "expo-image-manipulator": "~12.0.3",
-    "expo-image-picker": "~15.0.4"
+    "react-native": "0.74.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
