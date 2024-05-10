@@ -23,7 +23,7 @@ export function Voice({ message, ...rest }: Props) {
       />
 
       <Text style={styles.message}>
-        {message}
+        {message} 
       </Text>
       </TouchableOpacity>
     </View>

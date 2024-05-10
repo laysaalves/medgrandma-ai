@@ -1,19 +1,21 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Alert, Image, ScrollView, View } from 'react-native'
 import * as ImagePicker from 'expo-image-picker'
 import * as ImageManipulator from 'expo-image-manipulator'
+import { Audio } from 'expo-av';
 
 import { styles } from './styles'
 
 import { api } from '../../services/api'
 
-import { Identification } from '../../components/Identification';
+import { Identification } from '../../components/Identification'
 import { Button } from '../../components/Button'
 import { Voice } from '../../components/Voice'
 
 export function Home() {
   const [selectedImageUri, setSelectedImageUri] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+  const [sound, setSound] = useState();
 
   async function handleSelectImage() {
     try {
@@ -72,8 +74,27 @@ export function Home() {
       ]
     })
 
-    console.log(response.data);
+    console.log(response.data);   
   }
+
+  async function playSound() {
+    console.log('Loading Sound');
+    const { sound } = await Audio.Sound.createAsync( require('./assets/audiovovo.mp3')
+    );
+    setSound(sound);
+
+    console.log('Playing Sound');
+    await sound.playAsync();
+  }
+
+  useEffect(() => {
+    return sound
+      ? () => {
+          console.log('Unloading Sound');
+          sound.unloadAsync();
+        }
+      : undefined;
+  }, [sound]);
 
   return (
     <View style={styles.container}>
@@ -86,7 +107,7 @@ export function Home() {
           />
 
       <View style={styles.bottom}>
-      <Voice message="Primeiro clique aqui, vovó!" />
+      <Voice message="Primeiro clique aqui, vovó!" onPress={playSound} />
         <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingVertical: 24 }}>
           <View style={styles.identification}>
             <Identification data={{ name: 'Descrição' }} />
