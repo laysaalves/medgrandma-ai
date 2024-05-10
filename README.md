@@ -21,7 +21,7 @@
 
 Me inspirei na minha vida pessoal para criar esse projeto, com base em acontecimentos recentes, onde me vi em meio aos problemas relacionados à minha avó que usa muitos remédios por conta da diabétes, ossos etc...Então tive a ideia de criar esse aplicativo, implementar a Gemini AI, a Inteligência Artificial da Google, possibilitando identificar o conteúdo da imagem (foto da caixa do remédio) e descrever sobre o uso, dar recomendações etc. Deixando mais prático e simples no dia a dia! Contei um pouco da minha história de vida lá na aba de "Apresente-se" no Discord e é ela que me faz continuar motivada e enfrentar desafios como esse, buscando aproveitar ao máximo todo esse conhecimento de programação gratuito na Alura e evoluir a cada linha de código escrita.
 
-- Status do projeto:
+- Status do projeto (dentro dos meus conhecimentos de iniciante, com a ajuda das aulas da imersão):
 - [x] Interface principal;
 - [x] Funcionalidade de selecionar imagens da galeria;
 - [x] Gerar a descrição da imagem com a AI;
