@@ -33,7 +33,7 @@ Me inspirei na minha vida pessoal para criar esse projeto, com base em acontecim
 ---
 ## Tecnologias
 
--  [Google AI Studio](https://aistudio.google.com/) com a API Key, para gerar descrições de imagem;
+-  [Google AI Studio](https://aistudio.google.com/) com a API Key (oculta dentro de .env como "EXPO_PUBLIC_API_USER_ID" no código), para gerar descrições de imagem;
 -  [Node.js](https://nodejs.org/en/docs/) para consumir a API;
 -  [React Native](http://facebook.github.io/react-native/) com o [Expo](https://expo.io/);
 -  [Axios](https://github.com/axios/axios) para a comunicação com a API;
