@@ -2,6 +2,7 @@
   <a href="#introdução">Introdução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#aperte-o-play">Acesse o app</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#conecte-se-comigo">Conecte-se comigo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#licença">Licença</a>&nbsp;&nbsp;&nbsp;
 </p>
 
@@ -72,6 +73,13 @@ Me inspirei na minha vida pessoal para criar esse projeto, com base em acontecim
   # Inicie o app
   $ npx expo start
 ```
+---
+## Conecte-se comigo
+<p> Caso tenha alguma dúvida, queira mandar o seu feedback ou só bater um papo mesmo, conecte-se comigo por meio dessas redes:</p>
+
+- [LinkedIn](https://www.linkedin.com/in/laysaalves/)
+- E-mail: layseirasdev@outlook.com
+
 ## Licença
 
 Este projeto está sob a licença MIT. Consulte o [LICENSE](LICENSE.md) para obter mais detalhes.
