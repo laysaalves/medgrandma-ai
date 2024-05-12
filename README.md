@@ -70,8 +70,10 @@ Me inspirei na minha vida pessoal para criar esse projeto, com base em acontecim
   $ cd medgrandma-ai
   # Instale as dependências do projeto
   $ npm install
+  # Não esqueça de substituir com a sua API Key em "EXPO_PUBLIC_API_USER_ID"
   # Inicie o app
   $ npx expo start
+  # Pronto, concluído o tutorial!
 ```
 ---
 ## Conecte-se comigo
