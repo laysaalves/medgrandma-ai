@@ -79,6 +79,7 @@ Me inspirei na minha vida pessoal para criar esse projeto, com base em acontecim
 
 - [LinkedIn](https://www.linkedin.com/in/laysaalves/)
 - E-mail: layseirasdev@outlook.com
+- Discord: layseiras
 
 ## Licença
 
