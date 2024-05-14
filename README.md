@@ -85,7 +85,7 @@ Me inspirei na minha vida pessoal para criar esse projeto, com base em acontecim
 
 ## Licença
 
-Este projeto está sob a licença MIT. Consulte o [LICENSE](LICENSE.md) para obter mais detalhes.
+Este projeto está sob a licença MIT. Consulte o [LICENSE](LICENSE) para obter mais detalhes.
 
 ---
 [Voltar ao topo](#introdução)<br>
