@@ -49,7 +49,7 @@ Me inspirei na minha vida pessoal para criar esse projeto, com base em acontecim
   - Você deve ter o **[Node.js](https://nodejs.org/en/)** instalado na sua máquina;
   - Você deve ter o **[Git](https://git-scm.com/)** instalado e configurado no seu computador;
   - Além disso, você **precisa** de um gerenciador de pacotes, eu usei o **[NPM](https://www.npmjs.com/)**;
-  - Por fim, você precisa ter **[Expo](https://expo.io/)** para emular o aplicativo.
+  - Por fim, você precisa ter o **[Expo Go](https://expo.dev/go)** instalado no seu aparelho caso queira visualizar o app diretamente nele.
 
 ### Instalação
 
@@ -69,7 +69,7 @@ Me inspirei na minha vida pessoal para criar esse projeto, com base em acontecim
   # Não esqueça de substituir com a sua API Key em "EXPO_PUBLIC_API_USER_ID"
   # Inicie o app
   $ npx expo start
-  # Pronto, concluído o tutorial!
+  # Selecione como quer visualizar o app (iOS ou Android) ou também se quiser diretamente no seu aparelho, é só escanear o QRCode
 ```
 ---
 ## Conecte-se comigo
